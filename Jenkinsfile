@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+     maven 'localMaven'
+     jdk 'localJDK'
+    }
     environment {
         JENKINS_AVATAR_URL="https://raw.githubusercontent.com/jenkinsci/jenkins/master/war/src/main/webapp/images/headshot.png"
     }
