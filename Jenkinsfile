@@ -30,7 +30,7 @@ pipeline {
                         failOnError: true,
                         rawMessage: true
                     )
-                    sh "maven install"
+                    sh "mvn install"
                 }
             }
         }
