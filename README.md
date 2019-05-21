@@ -1,7 +1,7 @@
 ## Packaging the application
 ` $ mvn install`
 
-## Running the application
+## Running the application.
 ` $ java -jar sentiment-analysis-web-0.0.1-SNAPSHOT.jar --sa.logic.api.url=http://localhost:5000 ` 
 
 ## Building the container
